@@ -1,0 +1,60 @@
+*{
+    font-family: "gothic";
+}
+
+body {
+    background-color:black;
+    color: red;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "gothic";
+    src: url("./font/gothicum.ttf");
+}
+
+.block,
+.inline {
+    height: 100px;
+
+}
+.flex {
+    margin-bottom: 5px;
+}
+.border {
+    border: 2px solid rgb(163, 100, 100);
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vlesu {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+}
+
+.allpopich{
+    display: flex;
+    justify-content: space-between;
+}
+.bigpopich{
+    display: flex;
+    width: 78%;
+}
+
+.smallpopich {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+}
+img{
+    width: 100%;
+}
+label {
+    display: block;
+}

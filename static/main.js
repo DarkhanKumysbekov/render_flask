@@ -56,8 +56,8 @@ async function ddd() {
 }
 ddd()
 
-SSR - server side render ;
-CSR - client side render;
+// SSR - server side render ;
+// CSR - client side render;
 
 
 // btn.click()
